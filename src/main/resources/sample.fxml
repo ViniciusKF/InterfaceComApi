@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.Button?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.mycompany.interfacecomapi.PrimaryController">
+    <TextArea fx:id="textoEntrada" prefHeight="100.0" prefWidth="200.0"/>
+    <Button text="Pedir Conselho" onAction="#handleEnviar"/>
+    <TextArea fx:id="textoSaida" prefHeight="100.0" prefWidth="200.0"/>
+</VBox>
